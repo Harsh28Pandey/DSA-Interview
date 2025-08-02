@@ -1,5 +1,3 @@
-# DSA-Interview
-Mastering DSA is key for tech interviews; focus on Arrays, Linked Lists, Stacks, Trees, Graphs, DP, Greedy, Sorting & Searching.
 # 🚀 DSA Interview Questions
 
 Welcome to the **DSA Interview Questions** repository — your ultimate guide to mastering Data Structures and Algorithms (DSA) for coding interviews!
