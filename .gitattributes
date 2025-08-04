@@ -2,5 +2,3 @@
 * text=auto
 
 *.exe
-
-Remove .exe file and add it to .gitignore
