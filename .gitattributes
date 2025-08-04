@@ -2,3 +2,5 @@
 * text=auto
 
 *.exe
+
+Remove .exe file and ignore it
