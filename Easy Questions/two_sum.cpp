@@ -1,4 +1,5 @@
 // Problem - Two Sum (1) - LeetCode
+// Time Complexity: O(n)
 
 #include<iostream>
 #include<vector>
