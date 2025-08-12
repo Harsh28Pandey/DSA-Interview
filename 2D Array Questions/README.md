@@ -347,16 +347,31 @@ int stack[100]; // Stack implemented using array
 
 ## 🧠 Summary Table
 
-| Concept                  | Definition Summary                                             |
-|--------------------------|---------------------------------------------------------------|
-| Array                    | Fixed-size collection of elements of the same type            |
-| 1D Array                 | Linear array using single index                               |
-| 2D Array                 | Matrix-like structure using two indices                       |
-| Dynamic Array            | Resizable array using heap memory                             |
-| STL Array                | Safer, fixed-size wrapper over traditional array              |
-| Vector                   | Dynamic array with automatic memory management                |
-| Pointer & Array          | Array names decay to pointers, allowing pointer arithmetic    |
-| Jagged Array             | Array of arrays with varying lengths                          |
+## 🧠 Summary Table
+
+| Topic                  | Definition Summary                                    | Syntax Example                   |
+|------------------------|------------------------------------------------------|--------------------------------|
+| Array                  | Fixed-size collection of elements of the same type   | `int arr[5];`                  |
+| One-Dimensional Array  | Linear array accessed by a single index               | `int arr[3];`                  |
+| Two-Dimensional Array  | Array of arrays, used to represent matrices           | `int mat[3][3];`               |
+| Array Traversal        | Process of visiting each element                       | `for (int i=0; i<n; i++)`      |
+| Array Insertion        | Adding element by shifting elements                     | `arr[index] = value;`          |
+| Array Deletion         | Removing element by shifting elements                   | `for (int i=index; i<n-1; i++) arr[i]=arr[i+1];` |
+| Searching in Arrays    | Finding element using linear or binary search          | `if(arr[i] == key)`            |
+| Sorting Arrays         | Arranging elements in order                             | `sort(arr, arr+n);`             |
+| Array as Function Param| Passing array to function                               | `void func(int arr[], int n);` |
+| Pointers and Arrays    | Array name acts as pointer to first element            | `int* ptr = arr;`              |
+| Dynamic Arrays         | Arrays allocated at runtime                             | `int* arr = new int[n];`       |
+| Deallocation of Dynamic Arrays | Freeing dynamic memory                          | `delete[] arr;`                |
+| STL Array              | Fixed-size wrapper from STL                             | `std::array<int, 5> arr;`      |
+| Vector (Dynamic Array) | Resizable array from STL                                | `std::vector<int> vec;`        |
+| Multidimensional Arrays| Arrays with more than 2 dimensions                      | `int arr[x][y][z];`            |
+| Jagged Arrays          | Arrays of arrays with different lengths                | `int* jagged[3];`              |
+| Memory Layout of Arrays| Contiguous memory, row-major for 2D arrays             | `&arr[0]`, `&arr[1]`           |
+| Limitations of Static Arrays | Fixed size, no runtime resizing                   | `int arr[100];`                |
+| Benefits of Using Arrays| Fast access, cache friendly                            | `int x = arr[3];`              |
+| Use Cases of Arrays    | Used in algorithms, data structures, matrices          | `int stack[100];`              |
+
 
 ---
 
