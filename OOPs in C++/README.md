@@ -74,7 +74,7 @@ Car() : Car(0) {}
 class Car {}; class SportsCar : public Car {};
 ```
 
-#### 🧬 Types of Inheritance  
+## 🧬 Types of Inheritance  
 - **Single Inheritance** – One derived class inherits from one base class.  
 **Example:**
 ```cpp
@@ -107,7 +107,7 @@ class A {}; class B : virtual public A {}; class C : virtual public A {}; class 
 
 ---
 
-### 🕵 Abstraction  
+## 🕵 Abstraction  
 **Abstraction** is the process of hiding implementation details and showing only the necessary features to the user.
 **Example:**
 ```cpp
@@ -116,7 +116,7 @@ class Shape { public: virtual void draw() = 0; };
 
 ---
 
-### 🔐 Encapsulation  
+## 🔐 Encapsulation  
 **Encapsulation** is the bundling of data and methods into a single unit and restricting access to some components.
 **Example:**
 ```cpp
@@ -125,7 +125,7 @@ class Account { private: double balance; public: void deposit(double amt) { bala
 
 ---
 
-### 🎭 Polymorphism  
+## 🎭 Polymorphism  
 **Polymorphism** is the ability of a function, operator, or object to behave differently based on the context.
 **Example:**
 ```cpp
@@ -134,21 +134,21 @@ class Shape { public: virtual void draw() {} }; class Circle : public Shape { pu
 
 ---
 
-#### 🔹 Function Overloading  
+## 🔹 Function Overloading  
 Multiple functions with the same name but different parameter lists in the same scope.
 **Example:**
 ```cpp
 void print(int x); void print(double y);
 ```
 
-#### 🔹 Function Overriding  
+## 🔹 Function Overriding  
 A derived class provides a specific implementation of a function already defined in its base class.
 **Example:**
 ```cpp
 class A { public: virtual void show() {} }; class B : public A { public: void show() override {} };
 ```
 
-#### 🔹 Operator Overloading  
+## 🔹 Operator Overloading  
 Redefining the meaning of an operator for user-defined data types.
 **Example:**
 ```cpp
@@ -157,7 +157,7 @@ class Point { public: int x; Point operator+(Point p) { return {x + p.x}; } };
 
 ---
 
-### 📌 Static Data Member  
+## 📌 Static Data Member  
 A **static data member** belongs to the class rather than objects, meaning all objects share the same variable.
 **Example:**
 ```cpp
@@ -166,7 +166,7 @@ class Test { public: static int count; };
 
 ---
 
-### 🌀 Virtual Function  
+## 🌀 Virtual Function  
 A **virtual function** is a member function declared in a base class and redefined in a derived class to achieve runtime polymorphism.
 **Example:**
 ```cpp
@@ -175,7 +175,7 @@ class Base { public: virtual void display() {} };
 
 ---
 
-### 👉 this Keyword  
+## 👉 this Keyword  
 The **this** keyword is a pointer to the calling object and is used to access its members.
 **Example:**
 ```cpp
@@ -186,7 +186,7 @@ void setSpeed(int speed) { this->speed = speed; }
 
 ## 📜 Additional Important Concepts
 
-### 🛠 Destructor  
+## 🛠 Destructor  
 A **destructor** is a special member function that destroys an object when it is no longer needed.
 **Example:**
 ```cpp
@@ -195,7 +195,7 @@ A **destructor** is a special member function that destroys an object when it is
 
 ---
 
-### 🛡 Access Specifiers  
+## 🛡 Access Specifiers  
 Control the accessibility of class members:  
 - **public** – Accessible from anywhere.  
 - **private** – Accessible only within the class.  
@@ -207,7 +207,7 @@ class Example { public: int a; private: int b; protected: int c; };
 
 ---
 
-### ⏳ Friend Function  
+## ⏳ Friend Function  
 A **friend function** is a non-member function that has access to the private and protected members of a class.
 **Example:**
 ```cpp
@@ -216,7 +216,7 @@ class Test { friend void show(Test t); };
 
 ---
 
-### 🔄 Virtual Destructor  
+## 🔄 Virtual Destructor  
 A **virtual destructor** ensures that the correct destructor is called for an object when deleted through a base class pointer.
 **Example:**
 ```cpp
@@ -225,7 +225,7 @@ virtual ~Base() {}
 
 ---
 
-### 📥 Pure Virtual Function  
+## 📥 Pure Virtual Function  
 A **pure virtual function** has no implementation in the base class and must be overridden in the derived class.
 **Example:**
 ```cpp
@@ -234,7 +234,7 @@ virtual void display() = 0;
 
 ---
 
-### 🧩 Abstract Class  
+## 🧩 Abstract Class  
 A **class** that contains at least one pure virtual function and cannot be instantiated.
 **Example:**
 ```cpp
@@ -243,7 +243,7 @@ class Abstract { virtual void run() = 0; };
 
 ---
 
-### 📤 Inline Function  
+## 📤 Inline Function  
 A function whose definition is expanded in place where it is called, to reduce function call overhead.
 **Example:**
 ```cpp
@@ -252,7 +252,7 @@ inline int add(int a, int b) { return a + b; }
 
 ---
 
-### 🔁 Deep Copy vs Shallow Copy  
+## 🔁 Deep Copy vs Shallow Copy  
 - **Shallow Copy** – Copies only data members, not dynamically allocated memory.  
 **Example:**
 ```cpp
@@ -269,14 +269,14 @@ ClassName(const ClassName &obj) { ptr = new int(*obj.ptr); }
 
 ## 🚀 Advanced OOP Concepts in C++
 
-### 🧵 Mutable Keyword  
+## 🧵 Mutable Keyword  
 Allows modification of a data member even in a `const` function.
 **Example:**
 ```cpp
 mutable int cache;
 ```
 
-### 🎯 Explicit Keyword  
+## 🎯 Explicit Keyword  
 Prevents unintended implicit type conversions for constructors.
 **Example:**
 ```cpp
@@ -285,7 +285,7 @@ explicit MyClass(int x) {}
 
 ---
 
-### 🗃 Namespace  
+## 🗃 Namespace  
 Logical grouping of identifiers to prevent naming conflicts.
 **Example:**
 ```cpp
@@ -294,7 +294,7 @@ namespace MySpace { int x; }
 
 ---
 
-### 🪝 Virtual Table (vtable)  
+## 🪝 Virtual Table (vtable)  
 A mechanism used to support dynamic dispatch of virtual functions.
 **Example:**
 ```cpp
@@ -303,7 +303,7 @@ A mechanism used to support dynamic dispatch of virtual functions.
 
 ---
 
-### 🧩 Interface (Pure Abstract Class)  
+## 🧩 Interface (Pure Abstract Class)  
 A class containing only pure virtual functions, used to define a contract.
 **Example:**
 ```cpp
@@ -312,7 +312,7 @@ class IShape { virtual void draw() = 0; };
 
 ---
 
-### 📌 Final Specifier  
+## 📌 Final Specifier  
 Prevents a class from being inherited or a virtual function from being overridden.
 **Example:**
 ```cpp
@@ -321,7 +321,7 @@ class MyClass final {};
 
 ---
 
-### ⚙ Overriding vs Hiding  
+## ⚙ Overriding vs Hiding  
 - **Overriding** – Derived class replaces base class function with same signature.  
 - **Hiding** – Derived class function with same name but different parameters hides base class version.
 **Example:**
@@ -331,7 +331,7 @@ void display(int x); // hides base display()
 
 ---
 
-### ⏱ Static Member Function  
+## ⏱ Static Member Function  
 Belongs to the class, not objects, and can only access static members.
 **Example:**
 ```cpp
@@ -340,7 +340,7 @@ static void showCount();
 
 ---
 
-### 🔗 Multiple Virtual Inheritance  
+## 🔗 Multiple Virtual Inheritance  
 Solves ambiguity when multiple base classes share the same ancestor.
 **Example:**
 ```cpp
@@ -349,7 +349,7 @@ class A {}; class B : virtual public A {}; class C : virtual public A {};
 
 ---
 
-### 🛠 Const Member Function  
+## 🛠 Const Member Function  
 Member function that cannot modify the object’s data.
 **Example:**
 ```cpp
@@ -358,7 +358,7 @@ int getValue() const { return value; }
 
 ---
 
-### 🎛 Accessor and Mutator  
+## 🎛 Accessor and Mutator  
 - **Accessor** – Retrieves private data (getter).  
 **Example:**
 ```cpp
@@ -373,7 +373,7 @@ void setValue(int v);
 
 ---
 
-### 📦 Aggregation  
+## 📦 Aggregation  
 A "has-a" relationship where the child object can exist independently of the parent.
 **Example:**
 ```cpp
@@ -382,7 +382,7 @@ class Engine {}; class Car { Engine e; };
 
 ---
 
-### 🔗 Composition  
+## 🔗 Composition  
 A "has-a" relationship where the child object's lifetime depends on the parent.
 **Example:**
 ```cpp
@@ -391,7 +391,7 @@ class Heart {}; class Human { Heart h; };
 
 ---
 
-### 🪄 Type Casting in OOP  
+## 🪄 Type Casting in OOP  
 - **static_cast** – Compile-time type conversion. 
 **Example:**
 ```cpp
@@ -418,7 +418,7 @@ int* p = const_cast<int*>(&num);
 
 ---
 
-### 🛠 Member Initializer List  
+## 🛠 Member Initializer List  
 Initializes class members before the constructor body executes.
 **Example:**
 ```cpp
@@ -427,7 +427,7 @@ Car() : speed(0) {}
 
 ---
 
-### ⚠ Diamond Problem  
+## ⚠ Diamond Problem  
 Ambiguity in multiple inheritance when two parent classes share a common base.
 **Example:**
 ```cpp
@@ -436,7 +436,7 @@ class A {}; class B : public A {}; class C : public A {}; class D : public B, pu
 
 ---
 
-### 🎯 Virtual Base Class  
+## 🎯 Virtual Base Class  
 Used to solve the diamond problem by sharing a single base class instance.
 **Example:**
 ```cpp
@@ -445,7 +445,7 @@ class A {}; class B : virtual public A {}; class C : virtual public A {};
 
 ---
 
-### 🛡 Private Inheritance  
+## 🛡 Private Inheritance  
 When a class inherits privately, base class members become private in the derived class.
 **Example:**
 ```cpp
