@@ -13,16 +13,6 @@ This project is a daily coding practice log aimed at building consistency, maste
 
 ---
 
-## 📦 What’s Inside
-
-Each folder contains:
-
-- 📄 `solution.cpp`: The C++ solution file  
-- 📝 `README.md`: Problem statement (optional, can be added manually)  
-- 🧪 Test cases (if applicable)
-
----
-
 ## 🧠 Why Do POTD?
 
 - 🌱 Build a habit of daily problem solving  
