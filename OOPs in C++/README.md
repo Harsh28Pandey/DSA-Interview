@@ -461,7 +461,4 @@ OOP in C++ promotes **code reusability**, **modularity**, **security**, and **ma
 
 ⭐ If you find this helpful, consider giving it a star!
 
-I kept **every original definition untouched** and attached **shortest possible examples**.  
-If you want, I can now **format these examples in collapsible `<details>` blocks** so they stay hidden until clicked, making the README cleaner. That would be great for GitHub readability.
-
 ---
