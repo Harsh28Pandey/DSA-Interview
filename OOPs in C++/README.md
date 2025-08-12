@@ -7,7 +7,7 @@ OOP is a programming paradigm that organizes software design around **objects** 
 
 ## 📚 Key OOP Concepts
 
-### 🏛 Class  
+## 🏛 Class  
 A **class** is a user-defined data type that acts as a blueprint for creating objects. It encapsulates data (attributes) and functions (methods) into a single unit.
 
 **Example:**  
@@ -17,7 +17,7 @@ class Car { public: int speed; void drive() {} };
 
 ---
 
-### 🎯 Object  
+## 🎯 Object  
 An **object** is an instance of a class that has a unique identity, state, and behavior.
 **Example:**
 ```cpp
