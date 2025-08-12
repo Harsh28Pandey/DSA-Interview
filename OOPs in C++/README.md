@@ -15,12 +15,16 @@ A **class** is a user-defined data type that acts as a blueprint for creating ob
 class Car { public: int speed; void drive() {} }; 
 ```
 
+---
+
 ### 🎯 Object  
 An **object** is an instance of a class that has a unique identity, state, and behavior.
 **Example:**
 ```cpp
 Car myCar;
 ```
+
+---
 
 ### 🏗 Constructor  
 A **constructor** is a special member function that initializes objects when they are created.  
