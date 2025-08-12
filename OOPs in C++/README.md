@@ -358,7 +358,7 @@ int getValue() const { return value; }
 
 ---
 
-## 🎛 Accessor and Mutator  
+## 🎛 Accessor (Getter) and Mutator (Setter) 
 - **Accessor** – Retrieves private data (getter).  
 **Example:**
 ```cpp
