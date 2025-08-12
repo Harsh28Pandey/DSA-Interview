@@ -7,6 +7,12 @@ This repository provides **clear definitions** of all major topics related to **
 ## 📘 1. Array
 
 An **array** is a collection of elements of the **same data type**, stored in **contiguous memory locations**, and accessed using **indexing**. Arrays in C++ are **static**, meaning their size is fixed at compile time.
+**Syntax**:
+```cpp
+datatype arrayName[size];
+```
+
+**Example:**
 
 ---
 
