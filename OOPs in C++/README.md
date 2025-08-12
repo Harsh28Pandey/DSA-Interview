@@ -359,13 +359,13 @@ int getValue() const { return value; }
 ---
 
 ## 🎛 Accessor (Getter) and Mutator (Setter) 
-- **Accessor** – Retrieves private data (getter).  
+- **Accessor (Getter)** – Retrieves private data (getter).  
 **Example:**
 ```cpp
 int getValue();
 ```
 
-- **Mutator** – Modifies private data (setter).
+- **Mutator (Setter)** – Modifies private data (setter).
 **Example:**
 ```cpp
 void setValue(int v);
