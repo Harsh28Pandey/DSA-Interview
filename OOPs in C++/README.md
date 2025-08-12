@@ -34,7 +34,7 @@ It has the same name as the class and no return type.
 class Car { public: Car() { } };
 ```
 
-#### 🔹 Types of Constructors  
+## 🔹 Types of Constructors  
 - **Default Constructor** – Initializes objects with default values.
 **Example:**
 ```cpp
