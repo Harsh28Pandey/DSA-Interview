@@ -26,15 +26,6 @@ This repository contains a curated collection of **normal-level C++ programming 
 
 ---
 
-## 📝 How to Use
-
-- Browse the questions folder for categorized problems.
-- Each question contains a clear problem statement and instructions.
-- Practice writing clean, efficient C++ code.
-- Review solutions and explanations when available.
-
----
-
 ## 🚀 Benefits
 
 - Builds strong foundational C++ programming skills.  
