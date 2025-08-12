@@ -1,9 +1,5 @@
 // Problem - Range Product Queries of Powers (2438) - LeetCode
 
-#include<iostream>
-#include<vector>
-using namespace std;
-
 const int MOD = 1e9 + 7;
 
 long long modPow(long long base, long long exp) {
