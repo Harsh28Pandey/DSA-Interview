@@ -67,7 +67,7 @@ Car() : Car(0) {}
 
 ---
 
-### 🔄 Inheritance  
+## 🔄 Inheritance  
 **Inheritance** is a mechanism by which one class (derived class) can acquire properties and behaviors of another class (base class).
 **Example:**
 ```cpp
