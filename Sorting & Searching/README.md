@@ -8,7 +8,7 @@ This repository contains implementations of classic **searching** and **sorting*
 
 ---
 
-### 🔍 Searching Algorithms
+## 🔍 Searching Algorithms
 
 ## 1. 🔎 Linear Search
 📘 **Definition**: Traverses the array sequentially to find the target element.  
@@ -24,7 +24,7 @@ This repository contains implementations of classic **searching** and **sorting*
 
 ---
 
-### 🔄 Sorting Algorithms
+## 🔄 Sorting Algorithms
 
 ## 1. 🫧 Bubble Sort
 📘 **Definition**: Repeatedly compares adjacent elements and swaps them if they are in the wrong order.  
