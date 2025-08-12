@@ -1,9 +1,5 @@
 // Problem - Reordered Power of 2 (869) - LeetCode
 
-#include<iostream>
-#include<vector>
-using namespace std;
-
 bool reorderedPowerOf2(int n) {
     string s = to_string(n);
     sort(s.begin(),s.end());
