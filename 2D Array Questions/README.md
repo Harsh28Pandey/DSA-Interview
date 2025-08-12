@@ -24,11 +24,31 @@ int arr[5] = {1, 2, 3, 4, 5};
 
 A **one-dimensional array** (1D array) is a linear collection of elements, where each element can be accessed using a **single index**.
 
+**Syntax:**
+```cpp
+int arr[3];
+```
+
+**Example:**
+```cpp
+arr[0] = 10;
+```
+
 ---
 
 ## 📘 3. Two-Dimensional Array
 
 A **two-dimensional array** (2D array) is an array of arrays. It represents a **matrix or table** and uses **two indices** — one for the row and one for the column — to access elements.
+
+**Syntax:**
+```cpp
+datatype arrayName[rows][cols];
+```
+
+**Example:**
+```cpp
+int matrix[2][2] = {{1, 2}, {3, 4}};
+```
 
 ---
 
@@ -36,11 +56,31 @@ A **two-dimensional array** (2D array) is an array of arrays. It represents a **
 
 **Array traversal** refers to the process of accessing each element of the array, usually in a loop, to perform operations such as reading, updating, or printing values.
 
+**Syntax:**
+```cpp
+for (int i = 0; i < size; i++) { }
+```
+
+**Example:**
+```cpp
+for (int i = 0; i < 5; i++) cout << arr[i] << " ";
+```
+
 ---
 
 ## 📘 5. Array Insertion
 
 **Insertion** in an array involves adding an element at a specific index, which may require shifting other elements to make space. In static arrays, insertion is limited due to fixed size.
+
+**Syntax:**
+```cpp
+arr[index] = value; // after shifting
+```
+
+**Example:**
+```cpp
+arr[2] = 99;
+```
 
 ---
 
@@ -48,11 +88,32 @@ A **two-dimensional array** (2D array) is an array of arrays. It represents a **
 
 **Deletion** involves removing an element from a specific index and shifting subsequent elements leftward. In static arrays, deletion doesn’t shrink the array size.
 
+**Syntax:**
+```cpp
+for (int i = index; i < n - 1; i++) arr[i] = arr[i + 1];
+```
+
+**Example:**
+```cpp
+arr[2] = arr[3];
+```
+
+
 ---
 
 ## 📘 7. Searching in Arrays
 
 **Searching** refers to the process of finding an element in the array. It can be done using **linear search** for unsorted arrays or **binary search** for sorted arrays.
+
+**Syntax:**
+```cpp
+for (int i = 0; i < n; i++) if (arr[i] == key) return i;
+```
+
+**Example:**
+```cpp
+if (arr[i] == 3) cout << "Found";
+```
 
 ---
 
@@ -60,11 +121,32 @@ A **two-dimensional array** (2D array) is an array of arrays. It represents a **
 
 **Sorting** an array arranges its elements in a particular order (ascending or descending). Common sorting algorithms include **bubble sort**, **selection sort**, and **merge sort**.
 
+**Syntax:**
+```cpp
+for (...) if (arr[j] > arr[j+1]) swap(arr[j], arr[j+1]);
+```
+
+**Example:**
+```cpp
+sort(arr, arr + 5);
+```
+
 ---
 
 ## 📘 9. Array as Function Parameter
 
 Arrays can be passed to functions either by reference (decaying into pointers) or using pointers explicitly. C++ does not pass arrays by value.
+
+**Syntax:**
+```cpp
+void func(int arr[], int n);
+```
+
+**Example:**
+```cpp
+printArray(arr, 5);
+```
+
 
 ---
 
@@ -72,11 +154,33 @@ Arrays can be passed to functions either by reference (decaying into pointers) o
 
 In C++, the name of the array acts as a pointer to the first element. Arrays and pointers are closely related, but not identical. Pointer arithmetic allows navigation through array elements.
 
+**Syntax:**
+```cpp
+int* ptr = arr;
+```
+
+**Example:**
+```cpp
+cout << *(arr + 1);
+```
+
+
 ---
 
 ## 📘 11. Dynamic Arrays
 
 A **dynamic array** is an array whose size is allocated at runtime using heap memory (typically via `new` keyword in C++). Dynamic arrays allow flexible sizing.
+
+**Syntax:**
+```cpp
+int* arr = new int[size];
+```
+
+**Example:**
+```cpp
+arr[0] = 42;
+```
+
 
 ---
 
@@ -84,11 +188,33 @@ A **dynamic array** is an array whose size is allocated at runtime using heap me
 
 To avoid memory leaks, dynamically allocated arrays must be deallocated using the `delete[]` keyword.
 
+**Syntax:**
+```cpp
+delete[] arr;
+```
+
+**Example:**
+```cpp
+delete[] arr;
+```
+
+
 ---
 
 ## 📘 13. STL Array
 
 `std::array` is a **container** in the Standard Template Library (STL) that wraps a fixed-size array and provides additional member functions and safety features like bounds checking.
+
+**Syntax:**
+```cpp
+std::array<int, 5> arr = {1, 2, 3, 4, 5};
+```
+
+**Example:**
+```cpp
+cout << arr.at(2);
+```
+
 
 ---
 
@@ -96,11 +222,33 @@ To avoid memory leaks, dynamically allocated arrays must be deallocated using th
 
 `std::vector` is a **dynamic array** from the STL that can grow and shrink in size at runtime. It provides rich functionality and handles memory management internally.
 
+**Syntax:**
+```cpp
+std::vector<int> vec;
+```
+
+**Example:**
+```cpp
+vec.push_back(10);
+```
+
+
 ---
 
 ## 📘 15. Multidimensional Arrays
 
 Multidimensional arrays (e.g., 3D arrays) are extensions of 2D arrays, representing data with more than two dimensions. Each additional dimension adds a layer of indexing.
+
+**Syntax:**
+```cpp
+int arr[x][y][z];
+```
+
+**Example:**
+```cpp
+arr[0][1][2] = 5;
+```
+
 
 ---
 
@@ -108,11 +256,33 @@ Multidimensional arrays (e.g., 3D arrays) are extensions of 2D arrays, represent
 
 A **jagged array** is an array of arrays where each sub-array may have different lengths. In C++, this is typically implemented using an array of pointers or `std::vector<vector<int>>`.
 
+**Syntax:**
+```cpp
+int* jagged[3];
+```
+
+**Example:**
+```cpp
+jagged[0] = new int[2];
+```
+
+
 ---
 
 ## 📘 17. Memory Layout of Arrays
 
 Arrays are stored in **contiguous memory blocks**. In 2D arrays, **row-major order** is the standard layout in C++, meaning rows are stored one after the other in memory.
+
+**Syntax:**
+```cpp
+// Not directly applicable; conceptual
+```
+
+**Example:**
+```cpp
+cout << &arr[0] << " " << &arr[1];
+```
+
 
 ---
 
@@ -123,6 +293,17 @@ Static arrays in C++:
 - Cannot be returned from functions by value (without using structs/classes)
 - Risk out-of-bounds access due to lack of bounds checking
 
+**Syntax:**
+```cpp
+int arr[100]; // Fixed at compile time
+```
+
+**Example:**
+```cpp
+arr[101] = 5; // Unsafe
+```
+
+
 ---
 
 ## 📘 19. Benefits of Using Arrays
@@ -130,6 +311,17 @@ Static arrays in C++:
 - Fast random access (O(1))
 - Memory efficiency for fixed-size data
 - Simplicity and low overhead compared to dynamic structures
+
+**Syntax:**
+```cpp
+// Conceptual
+```
+
+**Example:**
+```cpp
+int x = arr[3]; // O(1) access
+```
+
 
 ---
 
@@ -139,6 +331,17 @@ Static arrays in C++:
 - Implementing data structures like stacks, queues, heaps
 - Matrix operations, image processing (2D arrays)
 - Competitive programming and algorithm practice
+
+**Syntax:**
+```cpp
+// Conceptual
+```
+
+**Example:**
+```cpp
+int stack[100]; // Stack implemented using array
+```
+
 
 ---
 
