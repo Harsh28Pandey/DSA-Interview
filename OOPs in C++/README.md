@@ -26,7 +26,7 @@ Car myCar;
 
 ---
 
-### 🏗 Constructor  
+## 🏗 Constructor  
 A **constructor** is a special member function that initializes objects when they are created.  
 It has the same name as the class and no return type.
 **Example:**
