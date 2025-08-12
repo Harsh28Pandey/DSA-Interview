@@ -14,6 +14,9 @@ datatype arrayName[size];
 ```
 
 **Example:**
+```cpp
+int arr[5] = {1, 2, 3, 4, 5};
+```
 
 ---
 
