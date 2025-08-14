@@ -347,8 +347,6 @@ int stack[100]; // Stack implemented using array
 
 ## 🧠 Summary Table
 
-## 🧠 Summary Table
-
 | Topic                  | Definition Summary                                    | Syntax Example                   |
 |------------------------|------------------------------------------------------|--------------------------------|
 | Array                  | Fixed-size collection of elements of the same type   | `int arr[5];`                  |
