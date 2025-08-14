@@ -192,13 +192,66 @@ Graphs are one of the most powerful and flexible data structures in computer sci
 
 ## 📚 Further Topics to Explore
 
-- Disjoint Set Union (DSU) / Union-Find
-- Network Flow Algorithms (Ford-Fulkerson)
-- Eulerian and Hamiltonian paths
-- Bridge and Articulation Points
-- Graph Coloring
-- Dynamic Connectivity
-- Planar Graphs
+## 1. Disjoint Set Union (DSU) / Union-Find
+A data structure used to keep track of a set of elements partitioned into **disjoint (non-overlapping) subsets**. It supports two main operations efficiently:
+- **Find**: Determine which subset a particular element belongs to.
+- **Union**: Merge two subsets into a single subset.
+  
+Commonly used in algorithms like Kruskal's MST to detect cycles and manage connected components.
+
+---
+
+## 2. Network Flow Algorithms (Ford-Fulkerson)
+A set of algorithms that compute the **maximum flow** possible from a source node to a sink node in a **flow network** (a directed graph where each edge has a capacity).
+
+- **Ford-Fulkerson** method repeatedly finds augmenting paths and increases flow until no more augmenting paths exist.
+- Used in applications like traffic routing, bipartite matching, and resource allocation.
+
+---
+
+## 3. Eulerian and Hamiltonian Paths
+
+- **Eulerian Path**: A path in a graph that visits **every edge exactly once**. If such a path exists and starts and ends at the same vertex, it is an **Eulerian Circuit**.
+  
+- **Hamiltonian Path**: A path that visits **every vertex exactly once**. If it starts and ends at the same vertex, it is a **Hamiltonian Cycle**.
+
+Finding Eulerian paths is easier and well-defined with necessary and sufficient conditions, whereas Hamiltonian path problems are generally NP-complete.
+
+---
+
+## 4. Bridge and Articulation Points
+
+- **Bridge (Cut-edge)**: An edge which, if removed, increases the number of connected components in the graph. Removing a bridge disconnects parts of the graph.
+  
+- **Articulation Point (Cut Vertex)**: A vertex which, if removed (along with its incident edges), increases the number of connected components.
+
+Identifying these is important in network reliability and vulnerability analysis.
+
+---
+
+## 5. Graph Coloring
+
+The process of assigning colors to vertices of a graph such that no two adjacent vertices share the same color. The minimum number of colors needed is called the **chromatic number**.
+
+Applications include scheduling problems, register allocation in compilers, and frequency assignment.
+
+---
+
+## 6. Dynamic Connectivity
+
+Techniques and data structures (like **Link-Cut Trees**, **Euler Tour Trees**) to efficiently maintain information about the connectivity of a graph as edges and vertices are dynamically added or removed.
+
+Important in networks that frequently change over time.
+
+---
+
+## 7. Planar Graphs
+
+Graphs that can be drawn on a plane without any edges crossing each other. 
+
+- Related concepts include **face**, **Euler’s formula** for planar graphs, and **graph embeddings**.
+- Used in circuit design, geography, and graph drawing.
+
 
 ---
 
