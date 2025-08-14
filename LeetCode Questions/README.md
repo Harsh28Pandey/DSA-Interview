@@ -42,17 +42,17 @@ Each LeetCode problem is approached methodically using the following steps:
 
 ## 🟢 Easy Level Problems
 
-### 🧠 Objective
+## 🧠 Objective
 - Strengthen understanding of **basic programming concepts**.
 - Practice **arrays**, **strings**, **math**, **iteration**, and **basic STL**.
 - Improve problem comprehension and C++ syntax familiarity.
 
-### ✅ Focus Areas
+## ✅ Focus Areas
 - Clear and readable code.
 - Choosing the right C++ STL container (e.g., `vector`, `map`, `set`).
 - Basic control structures: `for`, `while`, `if/else`, `switch`.
 
-### ⚙️ C++ Features Commonly Used
+## ⚙️ C++ Features Commonly Used
 - STL containers (`vector`, `map`, `set`)
 - Functions and recursion
 - Sorting using `std::sort`
@@ -62,17 +62,17 @@ Each LeetCode problem is approached methodically using the following steps:
 
 ## 🟡 Medium Level Problems
 
-### 🧠 Objective
+## 🧠 Objective
 - Improve **problem-solving strategies and algorithm design**.
 - Master **searching**, **sorting**, **recursion**, **backtracking**, **greedy**, and **two-pointer** techniques.
 - Begin using **dynamic programming**, **hashing**, and **sliding window** methods.
 
-### ✅ Focus Areas
+## ✅ Focus Areas
 - Writing optimized solutions under given constraints.
 - Managing memory and complexity.
 - Using recursion with memoization (top-down) or tabulation (bottom-up).
 
-### ⚙️ C++ Features Commonly Used
+## ⚙️ C++ Features Commonly Used
 - Unordered maps/sets for hashing
 - Pairs, tuples, and custom comparators
 - Lambda functions
@@ -82,17 +82,17 @@ Each LeetCode problem is approached methodically using the following steps:
 
 ## 🔴 Hard Level Problems
 
-### 🧠 Objective
+## 🧠 Objective
 - Tackle **complex algorithms and data structures**.
 - Solve problems involving **graphs**, **dynamic programming**, **segment trees**, **tries**, and **advanced backtracking**.
 - Demonstrate ability to think recursively and optimize performance.
 
-### ✅ Focus Areas
+## ✅ Focus Areas
 - Balancing between brute-force and optimal approaches.
 - Writing modular, scalable, and reusable code.
 - Handling large inputs and edge cases efficiently.
 
-### ⚙️ C++ Features Commonly Used
+## ⚙️ C++ Features Commonly Used
 - Graph representation using adjacency list/matrix
 - Advanced recursion and memoization
 - Custom classes and structs
@@ -100,20 +100,6 @@ Each LeetCode problem is approached methodically using the following steps:
 
 ---
 
-## 📦 Repository Structure (Suggested)
+⭐ If you find this helpful, consider giving it a star!
 
-```bash
-LeetCode-Cpp/
-├── Easy/
-│   ├── Problem1.cpp
-│   ├── Problem2.cpp
-│   └── ...
-├── Medium/
-│   ├── Problem1.cpp
-│   ├── Problem2.cpp
-│   └── ...
-├── Hard/
-│   ├── Problem1.cpp
-│   ├── Problem2.cpp
-│   └── ...
-└── README.md
+---
