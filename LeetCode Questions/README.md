@@ -15,26 +15,26 @@ Each LeetCode problem is approached methodically using the following steps:
    - Clarify constraints and input/output formats.
    - Identify edge cases and expected behavior.
 
-2. **Plan the Solution**:
+## 2. **Plan the Solution**:
    - Choose an appropriate data structure or algorithm.
    - Think of the time and space complexity.
    - Break the problem into smaller, manageable parts.
 
-3. **Write the Code**:
+## 3. **Write the Code**:
    - Use clean, modular, and readable C++ code.
    - Follow naming conventions and comment when necessary.
    - Use STL containers and algorithms when appropriate.
 
-4. **Test Thoroughly**:
+## 4. **Test Thoroughly**:
    - Test your solution on sample and custom test cases.
    - Consider edge cases and boundary conditions.
 
-5. **Analyze Complexity**:
+## 5. **Analyze Complexity**:
    - Time Complexity (Big O notation)
    - Space Complexity
    - Trade-offs between brute-force and optimized solutions
 
-6. **Refactor and Submit**:
+## 6. **Refactor and Submit**:
    - Review the code for clarity and performance.
    - Submit and verify correctness on LeetCode.
 
