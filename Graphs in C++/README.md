@@ -184,12 +184,6 @@ A graph whose vertices can be divided into two sets such that no two nodes in th
 
 ---
 
-## 📝 Summary
-
-Graphs are one of the most powerful and flexible data structures in computer science. Mastering graph theory concepts and algorithms is essential for solving real-world and competitive programming problems involving networks, relationships, and dynamic systems.
-
----
-
 ## 📚 Further Topics to Explore
 
 ## 1. Disjoint Set Union (DSU) / Union-Find
@@ -252,6 +246,11 @@ Graphs that can be drawn on a plane without any edges crossing each other.
 - Related concepts include **face**, **Euler’s formula** for planar graphs, and **graph embeddings**.
 - Used in circuit design, geography, and graph drawing.
 
+---
+
+## 📝 Summary
+
+Graphs are one of the most powerful and flexible data structures in computer science. Mastering graph theory concepts and algorithms is essential for solving real-world and competitive programming problems involving networks, relationships, and dynamic systems.
 
 ---
 
