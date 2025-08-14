@@ -14,92 +14,92 @@ Unlike arrays, linked lists allow efficient insertion and deletion of elements w
 
 ## 🧱 Basic Terminology
 
-### 🔹 Node
+## 🔹 Node
 The fundamental unit of a linked list. It contains two parts:
 - **Data**: Stores the value or information.
 - **Pointer (next)**: Points to the next node in the list.
 
-### 🔹 Head
+## 🔹 Head
 A pointer that refers to the **first node** in a linked list.
 
-### 🔹 Tail
+## 🔹 Tail
 The **last node** in the list whose next pointer is usually `NULL` (or points back to the head in circular lists).
 
-### 🔹 NULL
+## 🔹 NULL
 A special marker indicating the end of the list. If a node's next pointer is `NULL`, it’s the last node.
 
 ---
 
 ## 🧩 Types of Linked Lists
 
-### 1. Singly Linked List
+## 1. Singly Linked List
 A list where each node contains a single pointer to the **next** node in the sequence. Traversal is unidirectional, from head to tail.
 
-### 2. Doubly Linked List
+## 2. Doubly Linked List
 Each node contains two pointers:
 - One to the **next** node
 - One to the **previous** node  
 Allows traversal in **both directions** (forward and backward).
 
-### 3. Circular Linked List
+## 3. Circular Linked List
 A variation of singly or doubly linked list where the **last node points back to the first node**, forming a circular loop. There is no `NULL` in the last node.
 
-### 4. Circular Doubly Linked List
+## 4. Circular Doubly Linked List
 A **doubly linked list** in which the last node's next pointer points to the head, and the head’s previous pointer points to the tail.
 
 ---
 
 ## 🛠️ Fundamental Operations
 
-### 🔸 Insertion
+## 🔸 Insertion
 The process of adding a new node to the list. It can occur:
 - At the beginning
 - At the end
 - At a specific position
 
-### 🔸 Deletion
+## 🔸 Deletion
 The process of removing a node from the list. It can be:
 - From the beginning
 - From the end
 - From a specific position
 - By value
 
-### 🔸 Traversal
+## 🔸 Traversal
 Visiting each node in the list one by one to perform operations like reading or modifying data.
 
-### 🔸 Searching
+## 🔸 Searching
 Locating a node that contains a specific value by traversing through the list.
 
-### 🔸 Updating
+## 🔸 Updating
 Changing the value stored in one or more nodes based on a condition or index.
 
-### 🔸 Reversing
+## 🔸 Reversing
 Changing the direction of the list by reversing the pointers in all nodes.
 
 ---
 
 ## 🧠 Advanced Concepts
 
-### 🔹 Memory Management
+## 🔹 Memory Management
 Since nodes are dynamically allocated, proper memory management (using `delete` in C++) is essential to avoid memory leaks.
 
-### 🔹 Time Complexity
+## 🔹 Time Complexity
 - Insertion/Deletion at head: **O(1)**
 - Insertion/Deletion at end (singly linked list): **O(n)**
 - Search: **O(n)**
 - Access by index: **O(n)**
 
-### 🔹 Space Complexity
+## 🔹 Space Complexity
 Requires extra memory for storing pointers in each node.
 
-### 🔹 Sentinel Node
+## 🔹 Sentinel Node
 A dummy node used to simplify boundary conditions during insertion or deletion.
 
-### 🔹 Circular vs Linear Lists
+## 🔹 Circular vs Linear Lists
 - **Linear**: The last node points to `NULL`
 - **Circular**: The last node points to the head
 
-### 🔹 Self-Referencing Structures
+## 🔹 Self-Referencing Structures
 Each node has a pointer that refers to the same type (structure or class), enabling recursive structures.
 
 ---
