@@ -10,7 +10,7 @@ The focus of this documentation is to explain the methodology, mindset, and best
 
 Each LeetCode problem is approached methodically using the following steps:
 
-1. **Understand the Problem Statement**:
+1. ## **Understand the Problem Statement**:
    - Read the problem description carefully.
    - Clarify constraints and input/output formats.
    - Identify edge cases and expected behavior.
