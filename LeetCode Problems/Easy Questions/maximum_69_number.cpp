@@ -1,0 +1,15 @@
+// Problem - Maximum 69 Number (1323) - LeetCode
+
+#include<iostream>
+using namespace std;
+
+int maximum69Number (int num) {
+    string s = to_string(num); // convert number to string
+    for (char &c : s) {
+        if (c == '6') { // change the first '6' to '9'
+            c = '9';
+            break; // only one change allowed
+        }
+    }
+    return stoi(s); // convert back to integer
+}
