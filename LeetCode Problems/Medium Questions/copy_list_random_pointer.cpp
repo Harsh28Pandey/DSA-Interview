@@ -1,6 +1,8 @@
 // Problem - Copy List with Random Pointer (138) - LeetCode
 
 #include<iostream>
+#include<vector>
+#include<unordered_map>
 using namespace std;
 
 Node *copyRandom(Node *head) {
