@@ -27,26 +27,26 @@ This involves dynamically creating nodes and linking them in such a way that the
 
 ## 2. **Insertion Operations**
 
-#### a. **Insert at Beginning**
+## a. **Insert at Beginning**
 Adds a new node at the start of the list. The new node becomes the head, and the last node's pointer is updated to point to this new head.
 
-#### b. **Insert at End**
+## b. **Insert at End**
 Appends a new node at the end of the list. The new node's next pointer points to the head, and the previous last node is updated to point to the new node.
 
-#### c. **Insert at Specific Position**
+## c. **Insert at Specific Position**
 Inserts a node at a user-defined index. The list is traversed until the required position is found, and the new node is inserted between existing nodes without breaking the circular link.
 
 ---
 
 ## 3. **Deletion Operations**
 
-#### a. **Delete from Beginning**
+## a. **Delete from Beginning**
 Removes the head node. The head pointer is updated to the next node, and the last node is adjusted to point to the new head, maintaining the circular structure.
 
-#### b. **Delete from End**
+## b. **Delete from End**
 Removes the last node by traversing the list to the second-last node and updating its pointer to the head, thus removing the link to the old last node.
 
-#### c. **Delete from Specific Position**
+## c. **Delete from Specific Position**
 Removes a node located at a specific index. The node before the target node is updated to skip the deleted node, ensuring the circular structure remains intact.
 
 ---
