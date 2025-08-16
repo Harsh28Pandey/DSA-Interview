@@ -9,7 +9,7 @@ Node *copyRandom(Node *head) {
     if(head == NULL) {
         return NULL;
     }
-    unordered_map<Node* Node*> m;
+    unordered_map<Node*, Node*> m;
     Node *newHead = new Node(head->val);
     Node *oldTemp = head->next;
     Node *newTemp = newHead;
