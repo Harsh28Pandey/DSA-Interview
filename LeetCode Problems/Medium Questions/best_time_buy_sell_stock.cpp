@@ -1,6 +1,8 @@
 // Problem - Best Time to Buy and Sell stock using Strategy (3652) - LeetCode
 
 #include<iostream>
+#include <algorithm>
+#include<vector>
 using namespace std;
 
 long long maxProfit(vector<int>& prices, vector<int>& strategy, int k) {
@@ -44,4 +46,17 @@ long long maxProfit(vector<int>& prices, vector<int>& strategy, int k) {
         bestDelta = max(bestDelta, currentDelta);
     }
     return original + bestDelta;
+}
+
+
+int main() {
+    vector<int> prices = {3, 2, 6, 5, 0, 3};
+    vector<int> strategy = {0, 1, 1, 0, 0, 1}; // 1 = buy, 0 = do nothing
+    int k = 4; // Strategy window size
+
+    long long result = maxProfit(prices, strategy, k);
+
+    cout << "Maximum profit: " << result << endl;
+
+    return 0;
 }
