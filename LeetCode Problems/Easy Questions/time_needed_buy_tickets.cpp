@@ -25,3 +25,13 @@ int timeRequiredToBuy(vector<int>& tickets, int k) {
     }
     return time;
 }
+
+int main() {
+    vector<int> tickets = {2, 3, 2};
+    int k = 2;
+
+    int result = timeRequiredToBuy(tickets, k);
+    cout << "Time needed to buy tickets for person " << k << " is: " << result << endl;
+
+    return 0;
+}
