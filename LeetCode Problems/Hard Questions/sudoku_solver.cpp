@@ -5,31 +5,6 @@
 #include<vector>
 using namespace std;
 
-bool helper(vector<vector<char>> &board, int row, int col) {
-    if(row == 9) {
-        return true;
-    }
-    int nextRow = row, nextCol = col + 1;
-    if(nextCol == 9) {
-        nextRow = row + 1;
-        nextCol = 0;
-    }
-    if(board[row][col] != '.') {
-        return helper(board, nextRow, nextCol);
-    }
-    // Place the digit
-    for(char dig = '1'; dig <= '9'; dig++) {
-        if(isSafe(board,row,col,dig)) {
-            board[row][col] = dig;
-            if(helper(board,nextRow,nextCol)) {
-                return true;
-            }
-            board[row][col] = '.';
-        }
-    }
-    return false;
-}
-
 bool isSafe(vector<vector<char>> &board, int row, int col, char dig) {
     for(int j = 0; j < 9; j++) {
         if(board[row][j] == dig) {
@@ -55,6 +30,31 @@ bool isSafe(vector<vector<char>> &board, int row, int col, char dig) {
     return true;
 }
 
+bool helper(vector<vector<char>> &board, int row, int col) {
+    if(row == 9) {
+        return true;
+    }
+    int nextRow = row, nextCol = col + 1;
+    if(nextCol == 9) {
+        nextRow = row + 1;
+        nextCol = 0;
+    }
+    if(board[row][col] != '.') {
+        return helper(board, nextRow, nextCol);
+    }
+    // Place the digit
+    for(char dig = '1'; dig <= '9'; dig++) {
+        if(isSafe(board,row,col,dig)) {
+            board[row][col] = dig;
+            if(helper(board,nextRow,nextCol)) {
+                return true;
+            }
+            board[row][col] = '.';
+        }
+    }
+    return false;
+}
+
 void solver(vector<vector<char>> &board) {
     helper(board,0,0);
 }
@@ -70,13 +70,17 @@ int main() {
         {'.','6','.','.','.','.','2','8','.'},
         {'.','.','.','4','1','9','.','.','5'},
         {'.','.','.','8','.','.','7','9','.'}
-        };
+    };
+
     solver(board);
-    for(int i = 0; i < 9; i++) {
-        for(int j = 0; j < 9; j++) {
+
+    cout << "Solved Sudoku Board:\n";
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 9; j++) {
             cout << board[i][j] << " ";
-            }
-            cout << endl;
+        }
+        cout << endl;
     }
+
     return 0;
 }
