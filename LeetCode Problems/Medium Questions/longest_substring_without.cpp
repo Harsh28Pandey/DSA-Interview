@@ -1,6 +1,8 @@
 // Problem - Longest Substring Without Repeating Character (3) - LeetCode
 
 #include<iostream>
+#include <string>
+#include<vector>
 using namespace std;
 
 int lengthOfLongestSubstring(string s) {
@@ -19,4 +21,13 @@ int lengthOfLongestSubstring(string s) {
         second ++;
     }
     return len;
+}
+
+int main() {
+    string input = "abcabcbb"; // You can change this to test other cases
+
+    int result = lengthOfLongestSubstring(input);
+    cout << "Length of longest substring without repeating characters: " << result << endl;
+
+    return 0;
 }
