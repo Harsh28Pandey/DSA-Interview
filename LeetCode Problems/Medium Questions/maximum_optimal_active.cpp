@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<vector>
+#include <algorithm>
 using namespace std;
 
 long long maxTotal(vector<int>& value, vector<int>& limit) {
@@ -49,4 +50,14 @@ long long maxTotal(vector<int>& value, vector<int>& limit) {
     }
 
     return ans;
+}
+
+int main() {
+    vector<int> value = {10, 20, 30, 40};
+    vector<int> limit = {1, 2, 1, 3};
+
+    long long result = maxTotal(value, limit);
+    cout << "Maximum total from optimal activation order: " << result << endl;
+
+    return 0;
 }
