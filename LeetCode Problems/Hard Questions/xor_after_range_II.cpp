@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<vector>
+#include<cmath>
 using namespace std;
 
 const int MOD = 1e9 + 7;
@@ -60,4 +61,30 @@ int xorAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {
     int ans = 0;
     for (int x : nums) ans ^= x;
     return ans;
+}
+
+int main() {
+    int n, q;
+    cout << "Enter the size of nums array: ";
+    cin >> n;
+
+    vector<int> nums(n);
+    cout << "Enter " << n << " elements of nums array:\n";
+    for (int i = 0; i < n; i++) {
+        cin >> nums[i];
+    }
+
+    cout << "Enter the number of queries: ";
+    cin >> q;
+
+    vector<vector<int>> queries(q, vector<int>(4));
+    cout << "Enter each query in format: l r k v\n";
+    for (int i = 0; i < q; i++) {
+        cin >> queries[i][0] >> queries[i][1] >> queries[i][2] >> queries[i][3];
+    }
+
+    int result = xorAfterQueries(nums, queries);
+    cout << "Result after all queries (XOR of array): " << result << "\n";
+
+    return 0;
 }
