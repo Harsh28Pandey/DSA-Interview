@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<vector>
+#include <unordered_map>
 using namespace std;
 
 unordered_map<int, unordered_map<int, double>> memo;
@@ -25,4 +26,16 @@ double soupServings(int n) {
     // Optimization: For large n, the result approaches 1.0
     if (n >= 5000) return 1.0;
     return dfs(n, n);
+}
+
+int main() {
+    int n;
+    cout << "Enter the amount of soup (n): ";
+    cin >> n;
+
+    double result = soupServings(n);
+    cout.precision(6);
+    cout << fixed << "Probability that soup A will be empty first or both empty at the same time: " << result << endl;
+
+    return 0;
 }
