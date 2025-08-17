@@ -52,3 +52,18 @@ vector<int> productQueries(int n, vector<vector<int>>& queries) {
 
     return ans;
 }
+
+int main() {
+    int n = 15;
+    vector<vector<int>> queries = {{0, 1}, {1, 2}, {0, 3}};
+
+    vector<int> result = productQueries(n, queries);
+
+    cout << "Results of product queries:" << endl;
+    for (int res : result) {
+        cout << res << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
