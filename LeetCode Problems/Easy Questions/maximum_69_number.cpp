@@ -13,3 +13,14 @@ int maximum69Number (int num) {
     }
     return stoi(s); // convert back to integer
 }
+
+int main() {
+    cout << "Enter a number consisting of digits 6 and 9 only: ";
+    int num;
+    cin >> num;
+
+    int result = maximum69Number(num);
+    cout << "Maximum number after changing one 6 to 9: " << result << "\n";
+
+    return 0;
+}
