@@ -1,6 +1,8 @@
 // Problem - Maximum Sum After Divisible Sum Deletions (3654) - LeetCode
 
 #include<iostream>
+#include <vector>
+#include <climits>
 using namespace std;
 
 long long minArraySum(vector<int>& nums, int k) {
@@ -15,21 +17,33 @@ long long minArraySum(vector<int>& nums, int k) {
     const long long NEG = LLONG_MIN / 4;
     vector<long long> best(k, NEG);
 
-    long long dp = 0;          // dp over processed prefix
-    long long prefix = 0;      // prefix sum s[i]
-    best[0] = 0;               // j = 0: dp[0] - s[0] = 0
+    long long dp = 0; // dp over processed prefix
+    long long prefix = 0; // prefix sum s[i]
+    best[0] = 0; // j = 0: dp[0] - s[0] = 0
 
     for (int i = 0; i < n; ++i) {
         prefix += nums[i];
         int r = (int)(prefix % k);
 
         long long cand = (best[r] == NEG) ? NEG : prefix + best[r]; // delete a block ending at i
-        dp = max(dp, cand);                                         // dp[i] = max(dp[i-1], cand)
+        dp = max(dp, cand); // dp[i] = max(dp[i-1], cand)
 
         // Update best for this remainder with current position i as j
         // (dp - prefix) equals dp[i] - s[i]
         best[r] = max(best[r], dp - prefix);
     }
 
-    return total - dp;  // minimum remaining sum
+    return total - dp; // minimum remaining sum
+}
+
+
+int main() {
+    // Example input
+    vector<int> nums = {3, 1, 4, 1, 5, 9, 2, 6}; // You can change this input
+    int k = 3;
+
+    long long result = minArraySum(nums, k);
+    cout << "Minimum remaining sum after deletions: " << result << endl;
+
+    return 0;
 }
