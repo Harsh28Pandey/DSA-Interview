@@ -91,19 +91,3 @@ long long specialPalindrome(long long n) {
     auto it = upper_bound(specials.begin(), specials.end(), n);
     return (it != specials.end()) ? *it : -1;
 }
-
-int main() {
-    cout << "Enter a number: ";
-    long long n;
-    cin >> n;
-
-    long long result = specialPalindrome(n);
-
-    if (result == -1) {
-        cout << "No special palindrome number found greater than " << n << "\n";
-    } else {
-        cout << "Next special palindrome number after " << n << " is: " << result << "\n";
-    }
-
-    return 0;
-}
