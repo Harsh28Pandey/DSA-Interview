@@ -1,48 +1,35 @@
 // Problem - Trapping Rain Water (42) - LeetCode
+// Time Complexity - O(n)
+// Space Complexity - O(n)
 
 #include<iostream>
 #include<vector>
+#include<stack>
 using namespace std;
 
 int trap(vector<int>& height) {
     int n = height.size();
-    int water = 0;
-    int index = 0;
-    int left_max = 0, right_max = 0, max_height = height[0];
+    vector<int> lmax(n,0);
+    vector<int> rmax(n,0);
+    lmax[0] = height[0];
+    rmax[n - 1] = height[n - 1];
 
-    //max height og building
-    for(int i = 1; i < n; i ++)
-    {
-        if(max_height < height[i])
-        {
-            max_height = height[i];
-            index = i;
-        }
+    for(int i = 1; i < n; i++) {
+        lmax[i] = max(lmax[i - 1],height[i]);
     }
-
-    //left part
-    for(int i = 0; i < index; i ++)
-    {
-        if(left_max > height[i])
-        water += left_max - height[i];
-        else
-        left_max = height[i];
+    for(int i = n - 2; i >= 0; i--) {
+        rmax[i] = max(rmax[i + 1],height[i]);
     }
-
-    //right part
-    for(int i = n - 1; i > index; i --)
-    {
-        if(right_max > height[i])
-        water += right_max - height[i];
-        else
-        right_max = height[i];
+    int ans = 0;
+    for(int i = 0; i < n; i++) {
+        ans += min(lmax[i],rmax[i]) - height[i];
     }
-    return water;
+    return ans;
 }
 
 int main() {
     vector<int> height = {0,1,0,2,1,0,1,3,2,1,2,1};
     int result = trap(height);
-    cout << "Trapped rain water: " << result << endl; // Output: 6
+    cout << "Trapped water: " << result << endl;
     return 0;
 }
