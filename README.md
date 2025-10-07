@@ -6,7 +6,7 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ![Funny DSA gif]()
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*187ivsuCI98pJNqbN5vkVA.gif" alt="DSA Roadmap Animation" width="400">
+  <img src="dsa.gif" alt="DSA Roadmap Animation" width="400">
 </p>
 
 
