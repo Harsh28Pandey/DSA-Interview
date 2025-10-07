@@ -8,7 +8,6 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
   <img src="dsa_roadmap.png" alt="DSA Roadmap" width="9000" height="700>
 </p>
 
-DSA Sheet Link - https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview
 
 📘 **DSA Sheet Link:** [Click here to open](https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview)
 
