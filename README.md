@@ -4,7 +4,11 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ---
 
-![Funny DSA gif](https://miro.medium.com/v2/resize:fit:1400/1*187ivsuCI98pJNqbN5vkVA.gif)
+![Funny DSA gif]()
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*187ivsuCI98pJNqbN5vkVA.gif" alt="DSA Roadmap Animation" width="400">
+</p>
+
 
 DSA Sheet Link - https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview
 
