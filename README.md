@@ -4,11 +4,11 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ---
 
-![Funny DSA gif]()
-<p align="center">
-  <img src="dsa.gif" alt="DSA Roadmap Animation" width="400">
-</p>
+![Funny DSA gif](https://miro.medium.com/v2/resize:fit:1400/1*187ivsuCI98pJNqbN5vkVA.gif)
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*187ivsuCI98pJNqbN5vkVA.gif" alt="DSA Roadmap GIF" width="500">
+</p>
 
 DSA Sheet Link - https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview
 
@@ -26,17 +26,17 @@ DSA Sheet Link - https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKo
 
 ## 📚 Topics Covered
 
-| Topic                  | Description                           |
-|------------------------|-----------------------------------|
-| Arrays                 | Basic to advanced array problems      |
-| Linked Lists           | Singly, Doubly, Circular Linked Lists |
-| Stacks & Queues        | Implementation and common problems    |
-| Trees & Binary Trees   | Traversals, BST, Segment Trees        |
-| Graphs                 | BFS, DFS, Shortest Path Algorithms    |
-| Sorting & Searching    | Binary Search, Quick Sort, Merge Sort |
-| Dynamic Programming    | Memoization, Tabulation techniques    |
+| Topic                    | Description                                      |
+| ------------------------ | ------------------------------------------------ |
+| Arrays                   | Basic to advanced array problems                 |
+| Linked Lists             | Singly, Doubly, Circular Linked Lists            |
+| Stacks & Queues          | Implementation and common problems               |
+| Trees & Binary Trees     | Traversals, BST, Segment Trees                   |
+| Graphs                   | BFS, DFS, Shortest Path Algorithms               |
+| Sorting & Searching      | Binary Search, Quick Sort, Merge Sort            |
+| Dynamic Programming      | Memoization, Tabulation techniques               |
 | Recursion & Backtracking | Classic problems like permutations, combinations |
-| Hashing                | Hashmaps, frequency counters          |
+| Hashing                  | Hashmaps, frequency counters                     |
 
 ---
 
@@ -56,5 +56,4 @@ If you're interested in accessing the content, **please follow the profile and s
 
 I’ll review and grant access to genuine learners or collaborators.
 
-Thank you for your interest and support!
----
+## Thank you for your interest and support!
