@@ -5,11 +5,14 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 ---
 
 <p align="center">
-  <img src="dsa_roadmap.png" alt="DSA Roadmap" width="9000" height="700>
+  <img src="https://media.tenor.com/6GpD3rW16HMAAAAd/data-structure-dsa.gif" alt="DSA Roadmap" width="500"><br><br>
+  📘 <b>DSA Sheet Link:</b> 
+  <a href="https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview" target="_blank">
+    Click here to open
+  </a>
 </p>
 
-
-📘 **DSA Sheet Link:** [Click here to open](https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview)
+<!-- 📘 **DSA Sheet Link:** [Click here to open](https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview) -->
 
 ---
 
