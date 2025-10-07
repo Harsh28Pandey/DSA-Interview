@@ -9,7 +9,7 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 </p>
 
 📘 **DSA Sheet Link:** [Click here to open](https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview)
-DSA Sheet Link - https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview
+<!-- DSA Sheet Link - https://docs.google.com/spreadsheets/u/0/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/htmlview -->
 
 ---
 
