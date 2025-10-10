@@ -44,6 +44,17 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ---
 
+## 🎨 Interview Test Series
+
+| 📌 Resource Name               | 🔗 Link                                                                            |
+| ------------------------------ | ---------------------------------------------------------------------------------- |
+| Mock Tests                     | [Explore](https://www.lets-code.co.in/dashboard/mocktest/)                         |
+| Previous Year Coding Questions | [Explore](https://www.lets-code.co.in/previousyearcodingquestion/pyqs/)            |
+| Interview Questions            | [Explore](https://www.lets-code.co.in/interview/interviewquestions/)               |
+| Placement Materials            | [Explore](https://www.lets-code.co.in/articles/free-placement-google-drive-links/) |
+
+---
+
 ## 🖥️ Practice Problem Platforms
 
 - [LeetCode](https://leetcode.com/problemset/)
