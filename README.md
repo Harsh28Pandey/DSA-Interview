@@ -44,7 +44,7 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ---
 
-## 🎨 Interview Test Series
+## 🎯 Interview Test Series
 
 | 📌 Resource Name               | 🔗 Link                                                                            |
 | ------------------------------ | ---------------------------------------------------------------------------------- |
