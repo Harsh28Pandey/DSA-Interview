@@ -46,12 +46,13 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ## 🎯 Interview Test Series
 
-| 📌 Resource Name               | 🔗 Link                                                                            |
-| ------------------------------ | ---------------------------------------------------------------------------------- |
-| Mock Tests                     | [Explore](https://www.lets-code.co.in/dashboard/mocktest/)                         |
-| Previous Year Coding Questions | [Explore](https://www.lets-code.co.in/previousyearcodingquestion/pyqs/)            |
-| Interview Questions            | [Explore](https://www.lets-code.co.in/interview/interviewquestions/)               |
-| Placement Materials            | [Explore](https://www.lets-code.co.in/articles/free-placement-google-drive-links/) |
+| 📌 Resource Name               | 🔗 Link                                                                                                                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Mock Tests                     | [Explore](https://www.lets-code.co.in/dashboard/mocktest/)                                                                     |
+| Previous Year Coding Questions | [Explore](https://www.lets-code.co.in/previousyearcodingquestion/pyqs/)                                                        |
+| Interview Questions            | [Explore](https://www.lets-code.co.in/interview/interviewquestions/)                                                           |
+| Placement Materials            | [Explore](https://www.lets-code.co.in/articles/free-placement-google-drive-links/)                                             |
+| Complete Interview Preparation | [Explore](https://docs.google.com/document/d/1wT7H71M7CghUwB9zdFS0yp_uPccOhqWYFdf_PHPfEFI/edit?tab=t.0#heading=h.sz6llxaebnk3) |
 
 ---
 
