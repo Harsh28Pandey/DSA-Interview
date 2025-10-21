@@ -1,63 +1,59 @@
-// Problem - Flatten Binary Tree to Linked List (114) - LeetCode
-// Time Complexity - O(n)
+// Problem - Flatten Binary Tree to Linked List
 
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-// Definition for a binary tree node.
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
-
-// Your Solution class
-class Solution {
-public:
-    TreeNode *nextRight = NULL;
-    void flatten(TreeNode* root) {
-        if(root == NULL) {
-            return ;
-        }
-        flatten(root->right);
-        flatten(root->left);
-        root->left = NULL;
-        root->right = nextRight;
-        nextRight = root;
+struct Node {
+    int data;
+    Node* left;
+    Node* right;
+    Node(int val) {
+        data = val;
+        left = right = NULL;
     }
 };
 
-// Helper function to print the flattened tree
-void printFlattened(TreeNode* root) {
-    while (root != NULL) {
-        cout << root->val << " ";
+class Solution {
+  public:
+    void flatten(Node *root) {
+        while(root) {
+            if(!root->left) {
+                root = root->right;
+            } else {
+                Node *curr = root->left;
+                while(curr->right) {
+                    curr = curr->right;
+                }
+                curr->right = root->right;
+                root->right = root->left;
+                root->left = NULL;
+                root = root->right;
+            }
+        }
+    }
+};
+
+void printFlattened(Node* root) {
+    while(root) {
+        cout << root->data << " ";
         root = root->right;
     }
     cout << endl;
 }
 
 int main() {
-    // Construct a sample binary tree:
-    //       1
-    //      / \
-    //     2   5
-    //    / \   \
-    //   3   4   6
-
-    TreeNode* root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(5);
-    root->left->left = new TreeNode(3);
-    root->left->right = new TreeNode(4);
-    root->right->right = new TreeNode(6);
-
+    Node* root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(5);
+    root->left->left = new Node(3);
+    root->left->right = new Node(4);
+    root->right->right = new Node(6);
+    
     Solution sol;
     sol.flatten(root);
-
-    cout << "Flattened tree (preorder as linked list): ";
+    
+    cout << "Flattened tree (as linked list): ";
     printFlattened(root);
-
-    // Cleanup (optional, since program ends)
+    
     return 0;
 }
