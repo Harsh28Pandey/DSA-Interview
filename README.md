@@ -28,7 +28,7 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ---
 
-## 📚 DSA Questions Asked in Interviews
+## 📚 DSA Questions Practice
 
 | Website                   | Link                                                                                      |
 | ------------------------- | ----------------------------------------------------------------------------------------- |
