@@ -28,6 +28,15 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 
 ---
 
+## DSA Questions Asked in Interviews
+
+| Website                   | Link                                                                                      |
+| ------------------------- | ----------------------------------------------------------------------------------------- |
+| Take U Forward            | [Link](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) |
+| DSA 20 Essential Patterns | [Link](https://codolio.com/question-tracker/sheet/20-essential-dsa-patterns-by-kushal)    |
+
+---
+
 ## 📚 Topics Covered
 
 | Topic                    | Description                                      |
