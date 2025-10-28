@@ -36,6 +36,7 @@ Welcome to the **DSA Interview Questions** repository — your ultimate guide to
 | DSA 20 Essential Patterns | [Link](https://codolio.com/question-tracker/sheet/20-essential-dsa-patterns-by-kushal)    |
 | DSA Problems              | [Link](https://neetcode.io/practice?tab=neetcode250)                                      |
 | DSA Patterns Sheet        | [Link](https://thita.ai/dsa-patterns-sheet)                                               |
+| DSA Interview Sheet       | [Link](https://leetcodewizard.io/problem-database)                                        |
 
 ---
 
