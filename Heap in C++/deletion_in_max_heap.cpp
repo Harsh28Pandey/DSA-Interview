@@ -1,0 +1,100 @@
+// Time Complexity - O(log n)
+
+#include<iostream>
+using namespace std;
+
+class MaxHeap {
+    int *arr;
+    int size; // total elements in heap
+    int totalSize; // total size of array
+    
+    public:
+
+    MaxHeap(int n) {
+        arr = new int[n];
+        size = 0;
+        totalSize = n;
+    }
+
+    // insert into the max heap
+    void insert(int value) {
+        // if heap size is avaliable or not
+        if(size == totalSize) {
+            cout << "Heap overflow" << endl;
+            return ;
+        }
+
+        arr[size] = value;
+        int index = size;
+        size++;
+
+        // compare it with its parent
+        while(index > 0 && arr[(index - 1) / 2] < arr[index]) {
+            swap(arr[index],arr[(index - 1) / 2]);
+            index = (index - 1) / 2;
+        }
+        cout << arr[index] << " is inserted into the heap" << endl;
+    }
+
+    // print the elements of max heap
+    void print() {
+        for(int i = 0; i < size; i++) {
+            cout << arr[i] << " ";
+        }
+        cout << endl;
+    }
+
+    void heapify(int index) {
+        int largest = index;
+        int left = 2 * index + 1;
+        int right = 2 * index + 2;
+
+        // largest will store the index of element which is greater between parent, left child and right child
+
+        if(left < size && arr[left] > arr[largest])
+        largest = left;
+
+        if(right < size && arr[right] > arr[largest])
+        largest = right;
+
+        if(largest != index) {
+            swap(arr[index],arr[largest]);
+            heapify(largest);
+        }
+    }
+
+    void Delete_heap() {
+        if(size == 0) {
+            cout << "Heap underflow" << endl;
+            return ;
+        }
+        cout << arr[0] << " is deleted from the heap" << endl;
+        arr[0] = arr[size - 1];
+        size--;
+
+        if(size == 0)
+        return ;
+
+        heapify(0);
+    }
+};
+
+int main() {
+    MaxHeap h(6);
+    h.insert(4);
+    h.insert(14);
+    h.insert(11);
+    h.insert(12);
+    h.insert(20);
+    h.insert(30);
+    h.print();
+    // h.insert(100);
+    h.Delete_heap();
+    h.Delete_heap();
+    h.Delete_heap();
+    h.Delete_heap();
+    h.Delete_heap();
+    h.Delete_heap();
+    h.Delete_heap();
+    return 0;
+}
