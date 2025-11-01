@@ -1,0 +1,38 @@
+// Problem - Minimum Cost of Ropes - gfg
+
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+class Solution {
+public:
+    int minCost(vector<int>& arr) {
+        int n = arr.size();
+        priority_queue<int, vector<int>, greater<int>> p;
+        
+        for (int i = 0; i < n; i++) {
+            p.push(arr[i]);
+        }
+        
+        int cost = 0;
+        while (p.size() > 1) {
+            int rope = p.top();
+            p.pop();
+            rope += p.top();
+            p.pop();
+            cost += rope;
+            p.push(rope);
+        }
+        return cost;
+    }
+};
+
+int main() {
+    Solution obj;
+    vector<int> arr = {4, 3, 2, 6}; // Example input
+    
+    cout << "Minimum Cost to Connect Ropes: " << obj.minCost(arr) << endl;
+    
+    return 0;
+}
