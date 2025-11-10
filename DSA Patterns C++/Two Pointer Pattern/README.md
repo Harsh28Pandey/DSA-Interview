@@ -29,7 +29,7 @@ Mark ✅ each problem when you’ve solved it!
 | 344 | Reverse String          | LeetCode |   ✅   |
 | 680 | Valid Palindrome II     | LeetCode |   ✅   |
 | 977 | Squares of Sorted Array | LeetCode |   ✅   |
-| N/A | Valid Word Abbreviation | eetCode  |   ✅   |
+| N/A | Valid Word Abbreviation | NeetCode |   ✅   |
 
 ---
 
