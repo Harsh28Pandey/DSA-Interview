@@ -25,20 +25,21 @@ Mark ✅ each problem when you’ve solved it!
 
 | No. | Problem Name            | Platform | Status |
 | :-: | :---------------------- | :------- | :----: |
-| 125 | Valid Palindrome        | LeetCode |  [x]   |
-| 344 | Reverse String          | LeetCode |  [x]   |
-| 680 | Valid Palindrome II     | LeetCode |  [x]   |
-| 977 | Squares of Sorted Array | LeetCode |  [x]   |
-| N/A | Valid Word Abbreviation | eetCode  |  [x]   |
+| 125 | Valid Palindrome        | LeetCode |   ✅   |
+| 344 | Reverse String          | LeetCode |   ✅   |
+| 680 | Valid Palindrome II     | LeetCode |   ✅   |
+| 977 | Squares of Sorted Array | LeetCode |   ✅   |
+| N/A | Valid Word Abbreviation | eetCode  |   ✅   |
 
 ---
 
 ### ✅ Legend
 
-|   Symbol    | Meaning   |
-| :---------: | :-------- |
-| ☑️ or `[x]` | Completed |
-| ☐ or `[ ]`  | Pending   |
+| Symbol | Meaning     |
+| :----: | :---------- |
+|   ✅   | Completed   |
+|   ⏳   | In Progress |
+|   ❌   | Not Solved  |
 
 You can edit status manually by replacing:
 
