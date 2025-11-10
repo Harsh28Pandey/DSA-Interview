@@ -85,5 +85,3 @@ If you're interested in accessing the content, **please follow the profile and s
 I’ll review and grant access to genuine learners or collaborators.
 
 ## Thank you for your interest and support!
-
----
