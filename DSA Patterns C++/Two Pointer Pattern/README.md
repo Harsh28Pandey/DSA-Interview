@@ -23,43 +23,21 @@ Mark ✅ each problem when you’ve solved it!
 
 ## 📊 Progress Table
 
-| S No. | Problem No. | Problem Name                              | Difficulty Levels | Platform | Status |
-| :---: | :---------: | :---------------------------------------- | :---------------: | :------- | :----: |
-|   1   |     125     | Valid Palindrome                          |       Easy        | LeetCode |   ✅   |
-|   2   |     344     | Reverse String                            |       Easy        | LeetCode |   ✅   |
-|   3   |     680     | Valid Palindrome II                       |       Easy        | LeetCode |   ✅   |
-|   4   |     977     | Squares of Sorted Array                   |       Easy        | LeetCode |   ✅   |
-|   5   |     N/A     | Valid Word Abbreviation                   |       Easy        | NeetCode |   ✅   |
-|   6   |     88      | Merge Sorted Array                        |       Easy        | LeetCode |   ✅   |
-|   7   |    2824     | Count Pairs Whose Sum is Less Than Target |       Easy        | LeetCode |   ✅   |
-|   8   |      1      | Two Sum                                   |       Easy        | LeetCode |   ✅   |
-|   9   |     167     | Two Sum II - Input Array Is Sorted        |      Medium       | LeetCode |   ✅   |
-|  10   |     15      | 3 Sum                                     |      Medium       | LeetCode |   ✅   |
-|  11   |     N/A     | Sort Two Colors                           |      Medium       | Self     |   ⏳   |
-|  12   |     75      | Sort Colors                               |      Medium       | LeetCode |   ⏳   |
-|  13   |     19      | remove Nth Node From End of List          |      Medium       | LeetCode |   ⏳   |
-
----
-
-# 📊 Problem Solving Summary
-
-|     Platform      | Problems Solved |   ✅ Status    |
-| :---------------: | :-------------: | :------------: |
-|   **LeetCode**    |       11        |   🚀 Active    |
-|   **NeetCode**    |        1        | 🔥 In Progress |
-| **Self Practice** |        1        | 💪 Consistent  |
-|     **Total**     |     **13**      | 🏆 Keep Going! |
-
----
-
-### ✅ Legend
-
-| Symbol | Meaning     |
-| :----: | :---------- |
-|   ✅   | Completed   |
-|   ⏳   | In Progress |
-
-You can edit status manually by replacing:
+| S No. | Problem No. | Problem Name                              | Difficulty Levels | Platform |
+| :---: | :---------: | :---------------------------------------- | :---------------: | :------- |
+|   1   |     125     | Valid Palindrome                          |       Easy        | LeetCode |
+|   2   |     344     | Reverse String                            |       Easy        | LeetCode |
+|   3   |     680     | Valid Palindrome II                       |       Easy        | LeetCode |
+|   4   |     977     | Squares of Sorted Array                   |       Easy        | LeetCode |
+|   5   |     N/A     | Valid Word Abbreviation                   |       Easy        | NeetCode |
+|   6   |     88      | Merge Sorted Array                        |       Easy        | LeetCode |
+|   7   |    2824     | Count Pairs Whose Sum is Less Than Target |       Easy        | LeetCode |
+|   8   |      1      | Two Sum                                   |       Easy        | LeetCode |
+|   9   |     167     | Two Sum II - Input Array Is Sorted        |      Medium       | LeetCode |
+|  10   |     15      | 3 Sum                                     |      Medium       | LeetCode |
+|  11   |     N/A     | Sort Two Colors                           |      Medium       | Self     |
+|  12   |     75      | Sort Colors                               |      Medium       | LeetCode |
+|  13   |     19      | remove Nth Node From End of List          |      Medium       | LeetCode |
 
 ---
 
