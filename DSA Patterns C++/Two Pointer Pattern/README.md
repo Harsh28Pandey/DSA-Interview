@@ -35,6 +35,9 @@ Mark ✅ each problem when you’ve solved it!
 |  1   | Two Sum                                   |       Easy        | LeetCode |   ✅   |
 | 167  | Two Sum II - Input Array Is Sorted        |      Medium       | LeetCode |   ✅   |
 |  15  | 3 Sum                                     |      Medium       | LeetCode |   ✅   |
+| N/A  | Sort Two Colors                           |      Medium       | Self     |   ⏳   |
+|  75  | Sort Colors                               |      Medium       | LeetCode |   ⏳   |
+|  19  | remove Nth Node From End of List          |      Medium       | LeetCode |   ⏳   |
 
 ---
 
@@ -44,7 +47,6 @@ Mark ✅ each problem when you’ve solved it!
 | :----: | :---------- |
 |   ✅   | Completed   |
 |   ⏳   | In Progress |
-|   ❌   | Not Solved  |
 
 You can edit status manually by replacing:
 
