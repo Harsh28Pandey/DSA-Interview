@@ -41,6 +41,17 @@ Mark ✅ each problem when you’ve solved it!
 
 ---
 
+# 📊 Problem Solving Summary
+
+|     Platform      | Problems Solved |   ✅ Status    |
+| :---------------: | :-------------: | :------------: |
+|   **LeetCode**    |       11        |   🚀 Active    |
+|   **NeetCode**    |        1        | 🔥 In Progress |
+| **Self Practice** |        1        | 💪 Consistent  |
+|     **Total**     |     **13**      | 🏆 Keep Going! |
+
+---
+
 ### ✅ Legend
 
 | Symbol | Meaning     |
