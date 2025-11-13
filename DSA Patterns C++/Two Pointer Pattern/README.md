@@ -31,10 +31,10 @@ Mark ✅ each problem when you’ve solved it!
 | 977  | Squares of Sorted Array                   |       Easy        | LeetCode |   ✅   |
 | N/A  | Valid Word Abbreviation                   |       Easy        | NeetCode |   ✅   |
 |  88  | Merge Sorted Array                        |       Easy        | LeetCode |   ✅   |
-| 2824 | Count Pairs Whose Sum is Less Than Target |       Easy        | LeetCode |   ✅   |
-|  1   | Two Sum                                   |       Easy        | LeetCode |   ✅   |
-| 167  | Two Sum II - Input Array Is Sorted        |      Medium       | LeetCode |   ✅   |
-|  15  | 3 Sum                                     |      Medium       | LeetCode |   ✅   |
+| 2824 | Count Pairs Whose Sum is Less Than Target |       Easy        | LeetCode |   ❌   |
+|  1   | Two Sum                                   |       Easy        | LeetCode |   ❌   |
+| 167  | Two Sum II - Input Array Is Sorted        |      Medium       | LeetCode |   ❌   |
+|  15  | 3 Sum                                     |      Medium       | LeetCode |   ❌   |
 
 ---
 
