@@ -23,13 +23,18 @@ Mark ✅ each problem when you’ve solved it!
 
 ## 📊 Progress Table
 
-| No. | Problem Name            | Platform | Status |
-| :-: | :---------------------- | :------- | :----: |
-| 125 | Valid Palindrome        | LeetCode |   ✅   |
-| 344 | Reverse String          | LeetCode |   ✅   |
-| 680 | Valid Palindrome II     | LeetCode |   ✅   |
-| 977 | Squares of Sorted Array | LeetCode |   ✅   |
-| N/A | Valid Word Abbreviation | NeetCode |   ✅   |
+| No.  | Problem Name                              | Platform | Status |
+| :--: | :---------------------------------------- | :------- | :----: |
+| 125  | Valid Palindrome                          | LeetCode |   ✅   |
+| 344  | Reverse String                            | LeetCode |   ✅   |
+| 680  | Valid Palindrome II                       | LeetCode |   ✅   |
+| 977  | Squares of Sorted Array                   | LeetCode |   ✅   |
+| N/A  | Valid Word Abbreviation                   | NeetCode |   ✅   |
+|  88  | Merge Sorted Array                        | LeetCode |   ✅   |
+| 2824 | Count Pairs Whose Sum is Less Than Target | LeetCode |   ✅   |
+|  1   | Two Sum                                   | LeetCode |   ✅   |
+| 167  | Two Sum II - Input Array Is Sorted        | LeetCode |   ✅   |
+|  15  | 3 Sum                                     | LeetCode |   ✅   |
 
 ---
 
