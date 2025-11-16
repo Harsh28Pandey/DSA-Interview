@@ -35,9 +35,9 @@ Mark ✅ each problem when you’ve solved it!
 |   8   |      1      | Two Sum                                   |       Easy        | LeetCode |
 |   9   |     167     | Two Sum II - Input Array Is Sorted        |      Medium       | LeetCode |
 |  10   |     15      | 3 Sum                                     |      Medium       | LeetCode |
-|  11   |     N/A     | Sort Two Colors                           |      Medium       | Self     |
+|  11   |     N/A     | Sort Two Colors                           |       Easy        | Self     |
 |  12   |     75      | Sort Colors                               |      Medium       | LeetCode |
-|  13   |     19      | remove Nth Node From End of List          |      Medium       | LeetCode |
+|  13   |     19      | Remove Nth Node From End of List          |      Medium       | LeetCode |
 
 ---
 
