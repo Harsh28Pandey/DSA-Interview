@@ -38,8 +38,9 @@ Mark ✅ each problem when you’ve solved it!
 |  11   |     N/A     | Sort Two Colors                                 |       Easy        | Self     |
 |  12   |     75      | Sort Colors                                     |      Medium       | LeetCode |
 |  13   |     19      | Remove Nth Node From End of List                |      Medium       | LeetCode |
-|  14   |     N/A     | Strobogrammatic Number                          |      Medium       | LeetCode |
+|  14   |     N/A     | Strobogrammatic Number                          |       Easy        | LeetCode |
 |  15   |    2486     | Append Characters to String to make Subsequence |      Medium       | LeetCode |
+|  16   |     N/A     | Lowest Common Ancestor of a Binary Tree III     |      Medium       | NeetCode |
 
 ---
 
