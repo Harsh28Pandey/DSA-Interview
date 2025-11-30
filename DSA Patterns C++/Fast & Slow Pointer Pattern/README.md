@@ -22,12 +22,13 @@ Track your progress on common **Fast–Slow Pointer Pattern** problems.
 
 ## 📊 Progress Table
 
-| S No. | Problem No. | Problem Name              | Difficulty | Platform |
-| :---: | :---------: | :------------------------ | :--------: | :------- |
-|   1   |     202     | Happy Number              |    Easy    | LeetCode |
-|   2   |     876     | Middle of the Linked List |    Easy    | LeetCode |
-|   3   |     141     | Linked List Cycle         |    Easy    | LeetCode |
-|   4   |     142     | Linked List Cycle II      |   Medium   | LeetCode |
+| S No. | Problem No. | Problem Name              | Difficulty | Platform      |
+| :---: | :---------: | :------------------------ | :--------: | :------------ |
+|   1   |     202     | Happy Number              |    Easy    | LeetCode      |
+|   2   |     876     | Middle of the Linked List |    Easy    | LeetCode      |
+|   3   |     141     | Linked List Cycle         |    Easy    | LeetCode      |
+|   4   |     142     | Linked List Cycle II      |   Medium   | LeetCode      |
+|   5   |     N/A     | Find Length of Loop       |   Medium   | GeeksForGeeks |
 
 ---
 
