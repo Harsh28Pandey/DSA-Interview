@@ -1,4 +1,4 @@
-// Problem - Palindrome Linked List (234) - LeetCode
+// Problem - Maximum Twin Sum of a Linked List (2130) - LeetCode
 // Time Complexity - O(n)
 // Space Complexity - O(1)
 
@@ -16,7 +16,7 @@ public:
         return prev;
     }
 
-    bool isPalindrome(ListNode* head) {
+    int pairSum(ListNode* head) {
         ListNode *slow = head;
         ListNode *fast = head;
 
@@ -28,15 +28,13 @@ public:
         ListNode *p2 = reverseLinkedList(slow);
         ListNode *p1 = head;
 
+        int mx = INT_MIN;   // use different name
         while(p1 != NULL && p2 != NULL) {
-            if(p1->val != p2->val) {
-                return false;
-            }
-
+            int candidate = p1->val + p2->val;
+            mx = std::max(mx, candidate);
             p1 = p1->next;
             p2 = p2->next;
         }
-
-        return true;
+        return mx;
     }
 };

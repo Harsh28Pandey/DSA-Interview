@@ -32,6 +32,8 @@ Track your progress on common **Fast–Slow Pointer Pattern** problems.
 |   6   |     N/A     | Split a Linked List into Two Halves |    Easy    | GeeksForGeeks |
 |   7   |     287     | Find the Duplicate Number           |   Medium   | LeetCode      |
 |   8   |     234     | Palindrome Linked List              |   Medium   | LeetCode      |
+|   9   |    2130     | Maximum Twin Sum of a Linked List   |   Medium   | LeetCode      |
+|  10   |     457     | Circular Array Loop                 |   Medium   | LeetCode      |
 
 ---
 
