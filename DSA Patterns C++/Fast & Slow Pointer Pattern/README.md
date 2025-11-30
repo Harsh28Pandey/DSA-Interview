@@ -29,7 +29,7 @@ Track your progress on common **Fast–Slow Pointer Pattern** problems.
 |   3   |     141     | Linked List Cycle                   |    Easy    | LeetCode      |
 |   4   |     142     | Linked List Cycle II                |   Medium   | LeetCode      |
 |   5   |     N/A     | Find Length of Loop                 |   Medium   | GeeksForGeeks |
-|   6   |     N/A     | Split a Linked List into Two Halves |   Medium   | GeeksForGeeks |
+|   6   |     N/A     | Split a Linked List into Two Halves |    Easy    | GeeksForGeeks |
 |   7   |     287     | Find the Duplicate Number           |   Medium   | LeetCode      |
 |   8   |     234     | Palindrome Linked List              |   Medium   | LeetCode      |
 
