@@ -23,9 +23,11 @@ Track your progress on important **Sliding Window Problems** in C++.
 
 ## 📊 Progress Table
 
-| S No. | Problem No. | Problem Name | Difficulty | Platform |
-| :---: | :---------: | ------------ | :--------: | :------- |
-|       |             |              |            |          |
+| S No. | Problem No. | Problem Name                                    | Difficulty | Platform      |
+| :---: | :---------: | ----------------------------------------------- | :--------: | :------------ |
+|   1   |     N/A     | Max Sum of Size K                               |    Easy    | GeeksForGeeks |
+|   2   |    2461     | Maximum Sum of Distinct Subarrays with Length K |   Medium   | LeetCode      |
+|   3   |     209     | Minimum Size Subarray Sum                       |   Medium   | LeetCode      |
 
 ---
 
