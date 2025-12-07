@@ -28,6 +28,9 @@ Track your progress on important **Sliding Window Problems** in C++.
 |   1   |     N/A     | Max Sum of Size K                               |    Easy    | GeeksForGeeks |
 |   2   |    2461     | Maximum Sum of Distinct Subarrays with Length K |   Medium   | LeetCode      |
 |   3   |     209     | Minimum Size Subarray Sum                       |   Medium   | LeetCode      |
+|   3   |     219     | Contains Duplicate II                           |    Easy    | LeetCode      |
+|   3   |     643     | Maximum Average Subarray I                      |    Easy    | LeetCode      |
+|   3   |      3      | Longest Substring Without Repeating Characters  |   Medium   | LeetCode      |
 
 ---
 
