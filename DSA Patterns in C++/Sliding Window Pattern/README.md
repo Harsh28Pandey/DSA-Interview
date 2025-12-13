@@ -23,15 +23,18 @@ Track your progress on important **Sliding Window Problems** in C++.
 
 ## 📊 Progress Table
 
-| S No. | Problem No. | Problem Name                                    | Difficulty | Platform      |
-| :---: | :---------: | ----------------------------------------------- | :--------: | :------------ |
-|   1   |     N/A     | Max Sum of Size K                               |    Easy    | GeeksForGeeks |
-|   2   |    2461     | Maximum Sum of Distinct Subarrays with Length K |   Medium   | LeetCode      |
-|   3   |     209     | Minimum Size Subarray Sum                       |   Medium   | LeetCode      |
-|   4   |     219     | Contains Duplicate II                           |    Easy    | LeetCode      |
-|   5   |     643     | Maximum Average Subarray I                      |    Easy    | LeetCode      |
-|   6   |      3      | Longest Substring Without Repeating Characters  |   Medium   | LeetCode      |
-|   7   |     187     | Repeated DNA Sequences                          |   Medium   | LeetCode      |
+| S No. | Problem No. | Problem Name                                                                 | Difficulty | Platform      |
+| :---: | :---------: | ---------------------------------------------------------------------------- | :--------: | :------------ |
+|   1   |     N/A     | Max Sum of Size K                                                            |    Easy    | GeeksForGeeks |
+|   2   |    2461     | Maximum Sum of Distinct Subarrays with Length K                              |   Medium   | LeetCode      |
+|   3   |     209     | Minimum Size Subarray Sum                                                    |   Medium   | LeetCode      |
+|   4   |     219     | Contains Duplicate II                                                        |    Easy    | LeetCode      |
+|   5   |     643     | Maximum Average Subarray I                                                   |    Easy    | LeetCode      |
+|   6   |      3      | Longest Substring Without Repeating Characters                               |   Medium   | LeetCode      |
+|   7   |     187     | Repeated DNA Sequences                                                       |   Medium   | LeetCode      |
+|   8   |     904     | Fruit into Baskets                                                           |   Medium   | LeetCode      |
+|   9   |    1343     | Number of Subarrays of Size K and Average Greater than or Equal to Threshold |   Medium   | LeetCode      |
+|  10   |    1838     | Frequency of the Most Frequent Element                                       |   Medium   | LeetCode      |
 
 ---
 
