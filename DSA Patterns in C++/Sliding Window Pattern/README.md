@@ -35,6 +35,7 @@ Track your progress on important **Sliding Window Problems** in C++.
 |   8   |     904     | Fruit into Baskets                                                           |   Medium   | LeetCode      |
 |   9   |    1343     | Number of Subarrays of Size K and Average Greater than or Equal to Threshold |   Medium   | LeetCode      |
 |  10   |    1838     | Frequency of the Most Frequent Element                                       |   Medium   | LeetCode      |
+|  11   |     424     | Longest Repeating Character Replacement                                      |   Medium   | LeetCode      |
 
 ---
 
