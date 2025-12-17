@@ -26,9 +26,11 @@ Track your progress on important **Interval-Based Problems** in C++.
 
 ## 📊 Progress Table
 
-| S No. | Problem No. | Problem Name | Difficulty | Platform |
-| :---: | :---------: | ------------ | :--------: | :------- |
-|       |             |              |            |          |
+| S No. | Problem No. | Problem Name                | Difficulty | Platform |
+| :---: | :---------: | --------------------------- | :--------: | :------- |
+|   1   |     56      | Merge Intervals             |   Medium   | LeetCode |
+|   2   |     986     | Interval List Intersections |   Medium   | LeetCode |
+|   3   |    3169     | Count Days Without Meetings |   Medium   | LeetCode |
 
 ---
 
