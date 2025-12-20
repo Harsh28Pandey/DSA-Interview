@@ -32,6 +32,7 @@ Track your progress on important **Interval-Based Problems** in C++.
 |   2   |     986     | Interval List Intersections |   Medium   | LeetCode |
 |   3   |    3169     | Count Days Without Meetings |   Medium   | LeetCode |
 |   4   |     57      | Insert Interval             |   Medium   | LeetCode |
+|   5   |    1288     | Remove Covered Intervals    |   Medium   | LeetCode |
 
 ---
 
