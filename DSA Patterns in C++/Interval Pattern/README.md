@@ -33,6 +33,8 @@ Track your progress on important **Interval-Based Problems** in C++.
 |   3   |    3169     | Count Days Without Meetings |   Medium   | LeetCode |
 |   4   |     57      | Insert Interval             |   Medium   | LeetCode |
 |   5   |    1288     | Remove Covered Intervals    |   Medium   | LeetCode |
+|   6   |     731     | My Calander II              |   Medium   | LeetCode |
+|   7   |     729     | My Calander I               |   Medium   | LeetCode |
 
 ---
 
