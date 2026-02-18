@@ -1,5 +1,5 @@
 // Problem - Binary Number with Alternating Bits (693) - LeetCode
-// Time Complexity - O(n log n)
+// Time Complexity - O(log n)
 // Space Complexity - O(log n)
 
 class Solution {
